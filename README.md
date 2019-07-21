@@ -1,4 +1,6 @@
-# docker_intro
+# docker_intro for Digbio lab 
+#by Chunhui Xu 
+#cx9p9@mail.missouri.edu
 docker intro for digbio
 Before you start to build Docker:
 Make sure your website works well on your local properly.
