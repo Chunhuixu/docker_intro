@@ -20,7 +20,7 @@ Start Docker service if needed:
 systemctl start docker
 ```
 
-After your installation completely, you may open a CMD window, and type:
+After your installation completed, open a CMD window, and type:
 ```
 docker --version
 ```
@@ -76,7 +76,7 @@ After you have the `package.json` file, create a `package-lock.json` by:
 ``
 npm install
 ``
-it will generate the `package-lock.json` and Docker into the image later.
+it will generate the `package-lock.json` and will be used to Docker later.
 
 
 
