@@ -96,3 +96,24 @@ EXPOSE 3000                             #expose the port for your site (ask Juex
 CMD ["pm2-runtime", "--interpreter", "babel-node", "/fatplant/app.js"]  #run the app.js, it' same as command: ~/fatplant/pm2-runtime --interpreter
                                                                                                               ~/fatplant/babel-node /fatplant/app.js
 ```
+build Docker image by:
+```
+docker build -t chunhuixu/fatplant_v4      
+```
+To check if the image was built successfully:
+````
+docker image
+````
+````
+C:\Users\Chunhui Xu>docker images
+REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
+chunhuixu/fatplant_v4   latest              a8694ae9c99c        4 days ago          212MB
+````
+Push your image to Docker Hub:
+````
+docker push chunhuixu/fatplant_v4
+````
+
+
+
+
